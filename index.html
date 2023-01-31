@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Manta Lucian" />
+    <meta name="keywords" content="product,shoe" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Product Page</title>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <main id="home" class="main-container display-grid">
+      <div class="overlay-nav display-none"></div>
+      <nav class="main-navigation">
+        <div class="logo">
+          <a href="#">
+            <img src="http://www.clipartbest.com/cliparts/dc7/ppR/dc7ppRkKi.png" alt="Speedrun Logo" />
+          </a>
+        </div>
+        <ul class="link-list link-list-display">
+          <li class="list-item"><a class="link" href="#home">Home</a></li>
+          <li class="list-item"><a class="link" href="#details">Details</a></li>
+          <li class="list-item"><a class="link" href="#pricing">Pricing</a></li>
+          <li class="list-item"><a class="link" href="#testimonials">Testimonials</a></li>
+          <li class="list-item"><a class="link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="display-none burger">
+          <div class="top-line burger__line"></div>
+          <div class="mid-line burger__line"></div>
+          <div class="bot-line burger__line"></div>
+        </div>
+        <div class="display-none second-navigation">
+          <ul class="link-list second-link-list">
+            <li class="list-item"><a class="link" href="#home">Home</a></li>
+            <li class="list-item"><a class="link" href="#details">Details</a></li>
+            <li class="list-item"><a class="link" href="#pricing">Pricing</a></li>
+            <li class="list-item"><a class="link" href="#testimonials">Testimonials</a></li>
+            <li class="list-item"><a class="link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social">
+          <a href="#"><ion-icon class="social__logo fb-logo" name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon class="social__logo twt-logo" name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon class="social__logo ig-logo" name="logo-instagram"></ion-icon></a>
+          <a href="#"><ion-icon class="social__logo web-logo" name="logo-web-component"></ion-icon></a>
+        </div>
+        <div class="overlay display-none"></div>
+      </nav>
+      <section class="slider">
+        <button class="carousel__button carousel__button--left">
+          <ion-icon class="carousel__button-btn" name="arrow-back-outline"></ion-icon>
+        </button>
+
+        <div class="slider-container">
+          <div class="slide current-slide">
+            <div class="slide__image">
+              <img src="https://e0.pxfuel.com/wallpapers/905/63/desktop-wallpaper-nike-logo-purple-thumbnail.jpg" alt="hero img" />
+            </div>
+            <div class="slide-content">
+              <h1 class="slide-content__title">Lorem ipsum dolor</h1>
+              <p class="slide-content__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </p>
+              <button class="btn slide-content__button"><a href="#pricing">Shop now</a></button>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide__image">
+              <img src="https://i.pinimg.com/474x/be/43/da/be43dac1ec2972c26106d8451eba2857.jpg" alt="hero img" />
+            </div>
+            <div class="slide-content">
+              <h1 class="slide-content__title">Lorem ipsum dolor</h1>
+              <p class="slide-content__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </p>
+              <button class="btn slide-content__button"><a href="#pricing">Shop now</a></button>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide__image">
+              <img src="https://e0.pxfuel.com/wallpapers/260/639/desktop-wallpaper-purple-nike.jpg" alt="hero img" />
+            </div>
+            <div class="slide-content">
+              <h1 class="slide-content__title">Lorem ipsum dolor</h1>
+              <p class="slide-content__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </p>
+              <button class="btn slide-content__button"><a href="#pricing">Shop now</a></button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel__button carousel__button--right">
+          <ion-icon class="carousel__button-btn" name="arrow-forward-outline"></ion-icon>
+        </button>
+        <div class="carousel__nav">
+          <button class="carousel__nav-indicator current-slide"></button>
+          <button class="carousel__nav-indicator"></button>
+          <button class="carousel__nav-indicator"></button>
+        </div>
+      </section>
+      <section id="details" class="details">
+        <div class="details-container">
+          <div class="detail-card dcard-1">
+            <div class="detail-card__image">
+              <img
+                src="https://e1.pxfuel.com/desktop-wallpaper/778/686/desktop-wallpaper-displaying-14-for-purple-nike-1024x768-for-your-mobile-tablet-thumbnail.jpg"
+                alt="detail img"
+              />
+            </div>
+            <div class="detail-card__title">Lorem ipsum dolor</div>
+            <div class="detail-card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae sapiente dolor, nam excepturi in at atque
+              doloremque. Distinctio eligendi consequatur et dicta tempore odio accusantium illo exercitationem eaque vitae!
+            </div>
+          </div>
+          <div class="detail-card dcard-2">
+            <div class="detail-card__image">
+              <img src="https://e0.pxfuel.com/wallpapers/907/780/desktop-wallpaper-nike-logo-purple-thumbnail.jpg" alt="detail img" />
+            </div>
+            <div class="detail-card__title">Lorem ipsum dolor</div>
+            <div class="detail-card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae sapiente dolor, nam excepturi in at atque
+              doloremque. Distinctio eligendi consequatur et dicta tempore odio accusantium illo exercitationem eaque vitae!
+            </div>
+          </div>
+          <div class="detail-card dcard-3">
+            <div class="detail-card__image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbO6Mytpr1ITex7nprtaDO0YUk7fb-W7uxsA&usqp=CAU"
+                alt="detail img"
+              />
+            </div>
+            <div class="detail-card__title">Lorem ipsum dolor</div>
+            <div class="detail-card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae sapiente dolor, nam excepturi in at atque
+              doloremque. Distinctio eligendi consequatur et dicta tempore odio accusantium illo exercitationem eaque vitae!
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="pricing" class="pricing">
+        <div class="background-help"></div>
+        <div class="pricing-container">
+          <div class="pricing-title"><span>Pricing</span> table</div>
+          <div class="pricing-card-container">
+            <div class="pricing-card scale">
+              <div class="pricing-card__title">
+                <h2 class="price-title">Loremrem</h2>
+                <h3 class="price-sub-title">subtitle</h3>
+                <span class="big-price"><span class="big-price__six">6</span><span class="big-price__zero">0</span></span>
+              </div>
+              <div class="pricing-card__price">
+                <p class="price-price">$60</p>
+                <p class="price-length">per month</p>
+              </div>
+              <div class="price-card__list">
+                <ul class="price-list">
+                  <li class="price-item"><span>Lorem</span> something</li>
+                  <li class="price-item"><span>Lorem</span> something</li>
+                  <li class="price-item"><span>Lorem</span> something</li>
+                  <li class="price-item"><span>Lorem</span> something</li>
+                  <li class="price-item"><span>Lorem</span> something</li>
+                </ul>
+              </div>
+              <div class="price-card__button">
+                <button class="btn price-button">Buy now</button>
+              </div>
+            </div>
+            <div class="pricing-card">
+              <div class="pricing-card__title">
+                <h2 class="price-title">Loremrem</h2>
+                <h3 class="price-sub-title">subtitle</h3>
+                <span class="big-price"><span class="big-price__six">8</span><span class="big-price__zero">0</span></span>
+              </div>
+              <div class="pricing-card__price">
+                <p class="price-price">$80</p>
+                <p class="price-length">per month</p>
+              </div>
+              <div class="price-card__list">
+                <ul class="price-list">
+                  <li class="price-item">lorem something</li>
+                  <li class="price-item">lorem something</li>
+                  <li class="price-item">lorem something</li>
+                  <li class="price-item">lorem something</li>
+                  <li class="price-item">lorem something</li>
+                </ul>
+              </div>
+              <div class="price-card__button">
+                <button class="btn price-button-2">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials" class="testimonials">
+        <!-- <div class="testimonial-button testimonial-button__right">
+          <ion-icon class="testimonial__button-btn" name="arrow-forward-outline"></ion-icon>
+        </div>
+        <div class="testimonial-button testimonial-button__left">
+          <ion-icon class="testimonial__button-btn" name="arrow-back-outline"></ion-icon>
+        </div> -->
+        <div class="testimonial-head-title">
+          <h2 class="testimonial-head-title__title">Customer reviews</h2>
+          <p class="testimonial-head-title__text">What our customers are saying</p>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-card current-slide">
+                <span class="testimonial-quote">"</span>
+                <div class="testimonial-card__text">
+                  <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iste nulla placeat quisquam tempora exercitationem ab
+                    molestias, laboriosam inventore nesciunt maxime ex dolores rerum labore asperiores voluptate, cumque quas corrupti.
+                  </p>
+                </div>
+                <div class="testimonial-card__image">
+                  <img src="https://e0.pxfuel.com/wallpapers/905/63/desktop-wallpaper-nike-logo-purple-thumbnail.jpg" alt="alt" />
+                </div>
+                <div class="testimonial-card__name-n-rate">
+                  <p class="testimonial-name">Name</p>
+                  <p class="testimonial-rating">rate</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <span class="testimonial-quote tq-color-1">"</span>
+                <div class="testimonial-card__text">
+                  <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iste nulla placeat quisquam tempora exercitationem ab
+                    molestias, laboriosam inventore nesciunt maxime ex dolores rerum labore asperiores voluptate, cumque quas corrupti.
+                  </p>
+                </div>
+                <div class="testimonial-card__image">
+                  <img src="https://e0.pxfuel.com/wallpapers/905/63/desktop-wallpaper-nike-logo-purple-thumbnail.jpg" alt="alt" />
+                </div>
+                <div class="testimonial-card__name-n-rate tc-nnr-color-1">
+                  <p class="testimonial-name">Name</p>
+                  <p class="testimonial-rating">rate</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <span class="testimonial-quote tq-color-2">"</span>
+                <div class="testimonial-card__text">
+                  <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iste nulla placeat quisquam tempora exercitationem ab
+                    molestias, laboriosam inventore nesciunt maxime ex dolores rerum labore asperiores voluptate, cumque quas corrupti.
+                  </p>
+                </div>
+                <div class="testimonial-card__image">
+                  <img src="https://e0.pxfuel.com/wallpapers/905/63/desktop-wallpaper-nike-logo-purple-thumbnail.jpg" alt="alt" />
+                </div>
+                <div class="testimonial-card__name-n-rate tc-nnr-color-2">
+                  <p class="testimonial-name">Name</p>
+                  <p class="testimonial-rating">rate</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <span class="testimonial-quote tq-color-2">"</span>
+                <div class="testimonial-card__text">
+                  <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iste nulla placeat quisquam tempora exercitationem ab
+                    molestias, laboriosam inventore nesciunt maxime ex dolores rerum labore asperiores voluptate, cumque quas corrupti.
+                  </p>
+                </div>
+                <div class="testimonial-card__image">
+                  <img src="https://e0.pxfuel.com/wallpapers/905/63/desktop-wallpaper-nike-logo-purple-thumbnail.jpg" alt="alt" />
+                </div>
+                <div class="testimonial-card__name-n-rate tc-nnr-color-2">
+                  <p class="testimonial-name">Name</p>
+                  <p class="testimonial-rating">rate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="contact-container">
+          <div class="contact-info-container">
+            <div class="contact-info">
+              <div class="contact-info__head">
+                <h2 class="head-title">Contact us</h2>
+                <p class="head-text">You won't regret it lorem ipsum dolor amet siment de cerde monatora</p>
+              </div>
+            </div>
+            <div class="contact-info__body">
+              <p class="contact-text">
+                <a href="#"><ion-icon class="body-icon" name="mail-outline"></ion-icon> ourgmail@gmail.com</a>
+              </p>
+              <p class="contact-text">
+                <a href="#"><ion-icon class="body-icon" name="call-outline"></ion-icon> +0740 312 837</a>
+              </p>
+              <p class="contact-text">
+                <a href="#"><ion-icon class="body-icon" name="location-outline"></ion-icon> 101 Street 2763 Den</a>
+              </p>
+            </div>
+            <div class="contact-info__icons">
+              <div class="icon">
+                <a href="#"><ion-icon class="icon" name="logo-facebook"></ion-icon></a>
+              </div>
+              <div class="icon">
+                <a href="#"><ion-icon class="icon" name="logo-instagram"></ion-icon></a>
+              </div>
+              <div class="icon">
+                <a href="#"><ion-icon class="icon" name="logo-twitter"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+          <div class="form">
+            <form action="#">
+              <div class="input-name">
+                <input type="text" name="nume" id="nume" placeholder="Name" />
+              </div>
+              <div class="input-email">
+                <input type="email" name="email" id="email" placeholder="Email" />
+              </div>
+              <div class="input-tel">
+                <input type="tel" name="telefon" id="telefon" placeholder="Email" />
+              </div>
+              <div class="input-message">
+                <textarea name="mesaj" id="mesaj" cols="30" rows="10" placeholder="Message"></textarea>
+              </div>
+              <div class="input-check">
+                <input class="terms" type="checkbox" name="termeni" id="termneni" />
+                <label class="label" for="termeni">You agree with our <a href="#">terms and services</a></label>
+              </div>
+              <div class="input-submit">
+                <button class="submit-button">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="logo">
+        <img class="logo__image" src="http://www.clipartbest.com/cliparts/dc7/ppR/dc7ppRkKi.png" alt="logo" />
+        <p class="logo__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur tempore architecto neque at, nam impedit alias eaque numquam
+          voluptatum minima excepturi distinctio, aut dolore aspernatur perferendis facilis blanditiis eligendi optio.
+        </p>
+        <div class="logo__icons">
+          <div class="icon">
+            <a href="#"><ion-icon class="icon" name="logo-facebook"></ion-icon></a>
+          </div>
+          <div class="icon">
+            <a href="#"><ion-icon class="icon" name="logo-instagram"></ion-icon></a>
+          </div>
+          <div class="icon">
+            <a href="#"><ion-icon class="icon" name="logo-twitter"></ion-icon></a>
+          </div>
+        </div>
+      </div>
+      <div class="links">
+        <h2 class="links__title">Quick Nav</h2>
+        <ul class="links__list">
+          <li class="links__item"><a href="#">Home</a></li>
+          <li class="links__item"><a href="#">Details</a></li>
+          <li class="links__item"><a href="#">Prices</a></li>
+          <li class="links__item"><a href="#">Testimonials</a></li>
+          <li class="links__item"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="newsletter">
+        <div class="wrap">
+          <h2 class="newsletter__title">Join our Newsletter</h2>
+          <p class="newsletter__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <button class="newsletter__button btn">Newsletter</button>
+      </div>
+
+      <div class="CTA">
+        <h2 class="CTA__last-chance-title">Last chance</h2>
+        <p class="CTA__last-chance-text">to get this amazing sport shoe</p>
+        <button class="CTA__button btn"><a href="#pricing">Buy now</a></button>
+      </div>
+      <div class="terms">
+        <div class="terms__copy">
+          <p class="terms__copy-text">CopyRight &copy; 2023 Lucian Manta</p>
+        </div>
+        <div class="term__terms">
+          <p><a href="#">Terms</a></p>
+          <p><a href="#">Privicy Policy</a></p>
+          <p><a href="#">Support</a></p>
+        </div>
+      </div>
+      <div class="overlay-nav overlay-news display-none"></div>
+      <div class="newsletter__form display-none-2">
+        <button class="news-close-button">X</button>
+        <div class="wrap">
+          <h2 class="new-form__title">Join us now</h2>
+          <p class="new-form__text">So that you will never miss anything again</p>
+        </div>
+        <form class="news-form" action="">
+          <div class="news-input-email">
+            <input type="email" name="news-email" id="news-email" placeholder="Email" />
+          </div>
+          <div class="news-input-check">
+            <div>
+              <input type="checkbox" name="news-check" id="news-check" />
+            </div>
+            <label class="label-news" for="news-check">You agree with our <a href="#">terms and services</a></label>
+          </div>
+          <div class="news-input-check">
+            <div>
+              <input type="checkbox" name="news-check" id="news-check" />
+            </div>
+            <label class="label-news" for="news-check">You agree to receive monthly news</label>
+          </div>
+          <button class="news__button">Submit</button>
+        </form>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          300: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          950: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

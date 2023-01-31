@@ -1,0 +1,170 @@
+.testimonials {
+  grid-column: 1/-1;
+  // height: 70rem;
+  background-color: rgba($color-lightblue-tint-3, 0.5);
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem 5rem 5rem 5rem;
+  margin-bottom: 5rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10rem;
+}
+
+.testimonial-head-title {
+  justify-self: center;
+  text-align: center;
+  &__title {
+    font-size: 4rem;
+    color: $color-purple;
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  &__text {
+    font-size: 2rem;
+    color: $color-black;
+    margin-bottom: 5rem;
+  }
+}
+
+.testimonials-container {
+  width: 80%;
+  // height: 100%;
+  justify-self: center;
+  align-self: center;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  // background-color: red;
+  overflow: hidden;
+  grid-row: 2/-1;
+}
+
+.testimonial-card {
+  width: 100%;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 1%;
+  left: 0;
+  gap: 4rem;
+  padding: 2rem;
+  box-shadow: -8px 10px 15px rgba($color: #000000, $alpha: 0.2);
+}
+
+.testimonial-quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12rem;
+  opacity: 0.5;
+  color: $color-pink;
+}
+
+.testimonial-card__text {
+  margin-top: 5rem;
+  font-size: 1.7rem;
+  color: rgba($color-black, 0.5);
+}
+
+.testimonial-card__image {
+  img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px $color-white;
+    margin-bottom: 16rem;
+    position: relative;
+    z-index: 2;
+  }
+}
+.testimonial-card__name-n-rate {
+  background-color: $color-pink;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  color: $color-white;
+}
+
+.testimonial-name {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+}
+.testimonial-rating {
+  font-size: 1.7rem;
+}
+
+.tq-color-1 {
+  color: $color-purple-shade-3;
+}
+.tc-nnr-color-1 {
+  background-color: $color-purple-shade-3;
+}
+.tq-color-2 {
+  color: $color-blue-shade-3;
+}
+.tc-nnr-color-2 {
+  background-color: $color-blue-shade-3;
+}
+
+.testimonial-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  // font-size: 6rem;
+  color: $color-purple;
+  z-index: 2;
+  font-size: 6rem;
+
+  cursor: pointer;
+  &__right {
+    right: 0;
+    &:hover {
+      color: $color-pink-tint-3;
+    }
+  }
+  &__left {
+    &:hover {
+      color: $color-pink-tint-3;
+    }
+  }
+}
+
+.swiper {
+  width: 100%;
+  // height: 100%;
+
+  // grid-column: 1/-1;
+}
+
+.swiper-slide {
+  // text-align: center;
+  // font-size: 18px;
+  // background: #fff;
+  // height: 100%;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: stretch;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}

@@ -1,0 +1,257 @@
+.footer {
+  display: grid;
+  grid-column: 1/-1;
+  // height: 70rem;
+  background-color: rgba($color-black, 0.75);
+  grid-template-columns: repeat(8, 1fr);
+  padding: 5rem;
+  color: $color-white;
+  row-gap: 5rem;
+  position: relative;
+}
+
+.logo {
+  grid-column: 1/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+
+  &__image {
+    height: 10rem;
+  }
+  &__text {
+    font-size: 1.7rem;
+  }
+  &__icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 4rem;
+    & a {
+      color: $color-white;
+    }
+    & a:hover {
+      color: $color-pink-tint-3;
+    }
+  }
+}
+
+.links {
+  grid-column: 3/5;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  &__title {
+    font-size: 4rem;
+    text-decoration: underline;
+    margin-bottom: 16rem;
+    color: $color-lightblue-tint-3;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.7rem;
+  }
+  &__item a {
+    color: $color-white;
+    text-decoration: none;
+    &:hover {
+      color: $color-pink-tint-3;
+    }
+  }
+}
+
+.newsletter {
+  grid-column: 5/7;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 3rem;
+  &__title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: $color-lightblue-tint-3;
+    text-decoration: underline;
+  }
+  &__text {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 50%;
+    margin-bottom: 10rem;
+  }
+  &__button {
+    background: $color-pink-tint-3;
+    width: 16rem;
+  }
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CTA {
+  grid-column: 7/9;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  &__last-chance-title {
+    font-size: 4rem;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    color: $color-lightblue-tint-3;
+  }
+  &__last-chance-text {
+    font-size: 1.5rem;
+    margin-bottom: 14.5rem;
+  }
+  &__button {
+    background: $color-pink-tint-3;
+    & a {
+      color: $color-white;
+      text-decoration: none;
+    }
+  }
+}
+
+.terms {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7rem;
+}
+.term__terms {
+  display: flex;
+  gap: 2rem;
+  & a {
+    color: $color-white;
+    text-decoration: none;
+    &:hover {
+      color: $color-pink-tint-3;
+    }
+  }
+}
+
+.newsletter__form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  width: 50rem;
+  z-index: 100;
+}
+.new-form__title {
+  font-size: 6rem;
+}
+.new-form__text {
+  font-size: 2rem;
+}
+
+.news-input-check {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  & input {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  & .label-news {
+    font-size: 1.7rem;
+    & a {
+      color: $color-white;
+      text-decoration: none;
+      &:hover {
+        color: $color-pink-tint-3;
+      }
+    }
+  }
+}
+
+.news-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.news-input-email input {
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.news__button {
+  font-size: 3rem;
+  padding: 1rem 0;
+  border: none;
+  border-radius: 1rem;
+  background-color: $color-pink-tint-3;
+  color: $color-white;
+  &:hover {
+    background: linear-gradient(to right, $color-lightblue, $color-pink);
+    cursor: pointer;
+  }
+}
+
+.news-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1600px) {
+  .logo {
+    grid-column: 1/5;
+  }
+  .links {
+    grid-column: 5/9;
+    &__title {
+      margin-bottom: 2rem;
+    }
+  }
+  .newsletter {
+    grid-column: 1/5;
+    &__text {
+      margin-bottom: 2rem;
+    }
+  }
+  .CTA {
+    grid-column: 5/9;
+    &__last-chance-text {
+      margin-bottom: 6.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .logo {
+    grid-column: 1/-1;
+  }
+  .links {
+    grid-column: 1/-1;
+  }
+  .newsletter {
+    grid-column: 1/-1;
+  }
+  .CTA {
+    grid-column: 1/-1;
+  }
+}

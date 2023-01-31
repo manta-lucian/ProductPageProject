@@ -1,0 +1,48 @@
+.display-none {
+  display: none;
+}
+.display-none-2 {
+  display: none !important;
+}
+.display-block {
+  display: block;
+}
+
+.display-flex {
+  display: flex;
+}
+.overlay-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba($color-black, 0.2), rgba($color-black, 0.5));
+  z-index: 1;
+}
+.overlay-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba($color-black, 0.7), rgba($color-black, 0.7));
+  z-index: 88;
+}
+
+.btn {
+  padding: 2rem 4rem;
+  border: none;
+  outline: none;
+  width: 12rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(to right, $color-pink, $color-lightblue);
+  cursor: pointer;
+  color: $color-white;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  &:hover {
+    background: linear-gradient(to right, $color-lightblue, $color-pink);
+  }
+}
